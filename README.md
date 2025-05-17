@@ -1,24 +1,21 @@
 # AstroData Reduction: NGC 6118
 
-![status](https://img.shields.io/badge/status-in--progress-blue)
+![status](https://img.shields.io/badge/status-finished-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
-This repository contains a complete astronomical data reduction workflow applied to CCD images of the spiral galaxy **NGC 6118**, observed with the **Jacobus Kapteyn Telescope (JKT)**. The process is implemented in **Python using JupyterLab**, and documented with **Sphinx**.
+Reproducible pipeline in **Python** (JupyterLab) for the **photometric reduction**
+of astronomical images — using the galaxy *NGC 6118* as a case study — integrating
+all classic calibration stages:
 
----
+1. **SuperBias** and bias subtraction  
+2. Multiband **SuperFlats** (R and H-α) and illumination correction  
+3. **Cosmic ray** removal  
+4. Temporal and background normalization  
+5. Star detection and photometry  
+6. Identification and characterization of **H II regions**  
+7. Interactive 2-D and 3-D visualizations of the results :contentReference[oaicite:0]{index=0}
 
-## 🔭 Project Overview
+Full documentation is generated with **Sphinx** and will be available via GitHub Pages
+(under construction).
 
-This project performs the full preprocessing and scientific analysis of CCD data, including:
-
-- **SuperBias** creation from multiple bias frames
-- **SuperFlat** generation using twilight flats (R and Hα filters)
-- **Cosmic ray removal** (L.A.Cosmic)
-- **Bad pixel correction** (manual + automated)
-- **Background subtraction**
-- **Temporal normalization**
-- **Image composition** in R and Hα bands
-- **Aperture photometry** of stars
-- **Detection and analysis of HII regions**
-  - Interactive 2D and 3D bubble charts with Plotly
 
