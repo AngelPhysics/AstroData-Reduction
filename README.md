@@ -18,7 +18,7 @@ all classic calibration stages:
 Full documentation is generated with **Sphinx** and will be available via GitHub Pages
 (under construction).
 
-## 🚀 Quick Setup with pip (alternative)
+##  Quick Setup with pip (alternative)
 
 If you are not using conda, you can recreate the environment using `pip`:
 
